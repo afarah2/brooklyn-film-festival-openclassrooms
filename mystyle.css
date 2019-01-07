@@ -1,0 +1,132 @@
+@media all and (max-width: 766px) {
+    body{
+        min-width: 300 px;
+        display: block;
+        margin: 30px auto;
+}
+}
+.grid {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-auto-rows: 10em 10em;
+            grid-gap: 10px;
+            background-color: #3D2C3E;
+                   }
+
+.grid {font-family: Helvetica;
+    font-size: 1.4em;
+    color: #F7F6F6;
+    text-align: middle;
+    background-color: #3D2C3E;
+}
+
+.grid div:nth-child(1) {
+    background-color: #BB99B0;
+    border: 3px solid black
+
+}
+
+.grid div:nth-child(2) {
+    background-color: #A75259;
+    border: 3px solid black
+}
+
+.grid div:nth-child(3) {
+    background-color: #A793A4;
+    border: 3px solid black;
+}
+.grid div:nth-child(4) {
+    background-color: #BB99B0;
+    border: 3px solid black
+
+}
+
+.grid div:nth-child(5) {
+    background-color: #A75259;
+    border: 3px solid black
+}
+
+
+.grid div:nth-child(6) {
+    background-color: #A793A4;
+    border: 3px solid black;
+}
+
+body{
+            text-align: center;
+            background-color: #3D2C3E;
+                }
+
+h1{
+background-image: url("http://www.byronbayblog.com.au/wp-content/uploads/2013/02/Screenside-at-sunset-cinema-BBFF2012-Credit-Sarah-Lee.jpg");
+background-position: center;
+background-size: cover;
+background-color: #3d2c3e;
+background-size: cover;
+color: #F7F6F6;
+font-size: 4em;
+font-family: Bebas Neue;
+padding: 1em;
+margin-top:1px;
+                }
+
+h2{
+      background-color: #F7F6F6;
+      padding: 20px;
+      color: #3d2c3e;
+      font-size: 2em;
+      font-family: sans-serif;
+                }
+
+h3{
+background-color: #F7F6F6 ;
+    color: #3D2C3E;
+    padding:10px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+h5{
+    color: #3D2C3E;
+    background-color: #f7f6f6;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+p{
+    background-color: #A75259;
+    padding: 30px;
+    color: #f7f6f6;
+    font-family: serif;
+}
+
+img{
+    width: 7em;
+    height: 7em;
+    padding: 10px;
+
+}
+
+button {
+    color: #3D2C3E;
+    background-color: #f7f6f6;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+
+@media all and (min-width: 166px) and (max-width: 1240px) {
+    .grid {
+        display:block;
+        margin:10px;
+    }
+}
